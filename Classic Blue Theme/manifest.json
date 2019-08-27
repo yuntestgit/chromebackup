@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "Classic Blue Theme",
+	"version": "1.1",
+	"description": "A classic blue theme for Chrome.",
+	"theme": {
+		"colors": {
+			"frame": [100, 164, 241],
+			"frame_inactive": [165, 202, 247],
+			"frame_incognito": [99, 123, 157],
+			"frame_incognito_inactive": [149, 163, 179]
+		},
+		"images": {
+			"theme_frame": "images/theme_frame.png",
+			"theme_frame_inactive": "images/theme_frame_inactive.png",
+			"theme_frame_incognito": "images/theme_frame_incognito.png",
+			"theme_frame_incognito_inactive": "images/theme_frame_incognito_inactive.png",
+			"theme_tab_background": "images/theme_tab_background.png",
+			"theme_tab_background_incognito": "images/theme_tab_background_incognito.png",
+			"theme_tab_background_v": "images/theme_tab_background_v.png",
+			"theme_toolbar": "images/theme_toolbar.png"
+		},
+		"tints": {
+			"frame": [-1, -1, -1],
+			"frame_inactive": [-1, -1, -1],
+			"frame_incognito": [-1, -1, -1],
+			"frame_incognito_inactive": [-1, -1, -1]
+		}
+	}
+}

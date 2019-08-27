@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>yun Download Sound Options</title>
+		<style>
+			body: { padding: 10px; }
+			.volsblock {
+				float:left;
+				width:16px;
+			}
+			.vols {
+				margin-left:3px;
+				width:10px;
+				background-color:#555;
+			}
+		</style>
+	</head>
+
+<body>
+			<fieldset>
+				<legend><label style="margin-left:3px; margin-right:3px;"><input type="radio" name="soundtype" id="sound" value="sound" style="margin-right:5px;">Sound</label></legend>
+				<label>File
+					<select id="file">
+						<option value="audio/_voiceAhOh.mp3">Ah~Oh</option>
+						<option value="audio/_voiceOhNo.mp3">Oh~No</option>
+						<option value="audio/bird.mp3">Bird</option>
+						<option value="audio/break.mp3">Break</option>
+						<option value="audio/camera1.mp3">Camera1</option>
+						<option value="audio/camera2.mp3">Camera2</option>
+						<option value="audio/clip.mp3">Clip</option>
+						<option value="audio/facebook.mp3">Facebook</option>
+						<option value="audio/iphone.mp3">Iphone</option>
+						<option value="audio/line1.mp3">Line1</option>
+						<option value="audio/line2.mp3">Line2</option>
+						<option value="audio/line3.mp3">Line3</option>
+						<option value="audio/msn.mp3">MSN</option>
+						<option value="audio/nokia.mp3">Nokia</option>
+						<option value="audio/qq.mp3">QQ</option>
+						<option value="audio/skype.mp3">Skype</option>
+						<option value="audio/usb.mp3">USB</option>
+						<option value="audio/whatsapp.mp3">WhatsApp</option>
+						<option value="audio/windows8.mp3">Windows8</option>
+						<option value="audio/windowsxp.mp3">WindowsXP</option>
+					</select>
+				</label>
+			</fieldset>
+			
+			<fieldset style="margin-top:15px;">
+				<legend><label style="margin-left:3px; margin-right:3px;"><input type="radio" name="soundtype" id="speech" value="speech" style="margin-right:5px;">Speech</label></legend>
+				<div style="width:288px;">
+					<label>Speech output <input type="text" name="speechtext" id="speechtext" style="width:205px;"></label>
+				</div>
+				<div style="margin-top:10px;">
+					<label>Voice
+						<select id="voice" size="1">
+						</select>
+					</label>
+				</div>
+			</fieldset>
+			
+			<fieldset style="margin-top:15px;">
+				<div style="height:30px;">
+					<div style="float:left; margin-top:3px;">
+						<div style="float:left; margin-top:10px; margin-right:10px;">Volume:</div>
+						<div id="volblock1" class="volsblock" style="width:13px;">
+							<div id="vol1" class="vols" style="margin-left:0px; margin-top:20px; height:10px;"></div>
+						</div>
+						<div id="volblock2" class="volsblock">
+							<div id="vol2" class="vols" style="margin-top:15px; height:15px;"></div>
+						</div>
+						<div id="volblock3" class="volsblock">
+							<div id="vol3" class="vols" style="margin-top:10px; height:20px;"></div>
+						</div>
+						<div id="volblock4" class="volsblock">
+							<div id="vol4" class="vols" style="margin-top:5px; height:25px;"></div>
+						</div>
+						<div id="volblock5" class="volsblock" style="width:13px;">
+							<div id="vol5" class="vols" style="height:30px;"></div>
+						</div>
+						<input id="volume" type="hidden">
+					</div>
+					
+					
+					<div style="float:left; margin-left:30px; margin-top:9px;">
+						<div style="float:left;">Test</div>
+						<div id="test" style="float:left; margin-left:10px; width:20px; height:20px;">
+							<div style="width:0; height:0; border-style:solid; border-width:10px 0 10px 17.3px; border-color:transparent transparent transparent #555555;"></div>
+						</div>
+						
+						<div id="stop" style="float:left; margin-left:10px; width:20px; height:20px; background-color:#555; display:none;"></div>
+					</div>
+					
+					
+					<div style="float:right; margin-top:6px;">
+						<button id="save">Save</button>
+					</div>
+				</div>
+			</fieldset>
+			
+			<div id="status" style="margin-top:15px; color:#00f;"></div>				
+
+	<script src="options.js"></script>
+</body>
+</html>

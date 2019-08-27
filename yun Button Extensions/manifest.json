@@ -1,0 +1,25 @@
+{
+	"manifest_version":2,
+	
+	"name":"yun Button Extensions",
+	"version":"1.0.3",
+	"description":"Provides quick icon access to your Chrome extensions.",
+	
+	"background":
+	{
+		"scripts":["background.js"]
+	},
+	
+	"browser_action":
+	{
+		"default_icon":"icon.png",
+		"default_title":"Extensions"
+	},
+	
+	"icons":
+	{
+		"512":"icon.png"
+	},
+	
+	"permissions":["tabs"]
+}
